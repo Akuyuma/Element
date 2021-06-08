@@ -1,0 +1,22 @@
+package fr.senoria.client.features.eco.guis.elements.texts;
+
+import lombok.Getter;
+
+@Getter
+public enum TextSize {
+	
+	DEFAULT(1.0F),
+	EXTANDED_DEFAULT(1.3F),
+	LARGE(1.5F),
+	EXTRA_LARGE(2.0F),
+	EXTANDED_LARGE(3.0F),
+	SMALL(0.8F),
+	EXTANDED_SMALL(0.6F),
+	EXTRA_SMALL(0.5F);
+	
+	private float size;
+	
+	TextSize(float size) {
+		this.size = size;
+	}
+}
